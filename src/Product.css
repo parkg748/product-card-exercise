@@ -1,0 +1,21 @@
+.Product-card {
+  border: 1px solid gray;
+  border-radius: 4px;
+  margin: 36px;
+  width: 20%;
+  position: relative;
+}
+
+.Product-card > * {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.Product-card i {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}

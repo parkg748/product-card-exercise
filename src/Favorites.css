@@ -1,0 +1,11 @@
+.Favorites {
+  width: 20%;
+}
+
+.Favorites .Product-card {
+  width: initial;
+}
+
+.Favorites .Product-card i {
+  display: none;
+}
